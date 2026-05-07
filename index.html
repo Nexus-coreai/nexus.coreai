@@ -22,6 +22,7 @@
         .nav-link::after { content: ''; position: absolute; width: 0; height: 2px; bottom: -4px; left: 0; background-color: var(--nexus-cyan); transition: width 0.3s; }
         .nav-link:hover::after { width: 100%; }
         .hero-gradient { background: radial-gradient(circle at center, rgba(0, 210, 255, 0.15) 0%, transparent 70%); }
+        .x-letter{color: #00d2ff; text-shadow: 0 0 10px rgba(0,210,255,0.9), 0 0 20px rgba(0,210,255,0.7), 0 0 40px rgba(0,210,255,0.5);}
     </style>
 </head>
 <body class="overflow-x-hidden">
@@ -30,7 +31,9 @@
     <nav class="fixed w-full z-50 bg-black/80 backdrop-blur-lg border-b border-white/5 px-8 py-5 flex justify-between items-center">
         <div class="flex items-center gap-4">
             <img src="image_4.jpeg" alt="NEXUS Logo" class="h-10 w-10 object-contain">
-            <span class="text-2xl font-bold tracking-tighter text-white font-heading">NEXUS</span>
+           <span class="text-2xl font-bold tracking-tighter text-white font-heading">
+                NE<span class="x-letter">X</span>US
+            </span>
         </div>
         <div class="hidden md:flex gap-10 text-xs font-bold uppercase tracking-[0.2em] text-gray-400">
             <a href="#about" class="nav-link hover:text-cyan-400">Introduction</a>
